@@ -1,0 +1,23 @@
+{
+    "name":"tranthihongnhung/shop-thoi-trang",
+    "description":"hoc lap trinh website voi thay loi",
+    "authors":[
+        {
+            "name":"Tran Thi Hong Nhung ",
+            "email":"trannhung18102004@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        },
+        "files":[
+            "./app/route.php",
+            "./config/database.php"
+        ]
+    },
+    "require":{
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
